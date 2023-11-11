@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK Wirabuana - Official Website</title>
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!--custom css link-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--preload images-->
+    <link rel="preload" as="image" href="assets/images/gedungwb.png" />
+  
+  </head>
+
+  <body id="top">
+
+    <!--#HEADER-->
+    <header class="header" data-header>
+      <div class="container">
+        <h1>
+          <a href="#" class="logo">SMK WIRABUANA</a>
+        </h1>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">SMK WIRABUANA</a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="Close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-toggler>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-toggler>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#benefits" class="navbar-link" data-nav-toggler
+                >Benefits</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+
+          <a
+            class="header-action-btn login-btn"
+            target="_blank"
+          >
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+            <span class="span">Hubungi Kami</span>
+          </a>
+
+          <button
+            class="header-action-btn nav-open-btn"
+            aria-label="Open menu"
+            data-nav-toggler
+          >
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!--#SEARCH BOX-->
+
+    <div class="search-container" data-search-box>
+      <div class="container">
+        <button
+          class="search-close-btn"
+          aria-label="Close search"
+          data-search-toggler
+        >
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="search-wrapper">
+          <input
+            type="search"
+            name="search"
+            placeholder="Search Here..."
+            aria-label="Search"
+            class="search-field"
+          />
+
+          <button class="search-submit" aria-label="Submit" data-search-toggler>
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <article>
+        <!--#HERO-->
+
+        <section
+          class="hero"
+          id="home"
+          aria-label="hero"
+          style="background-image: url('./assets/images/hero-bg.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="section-subtitle">Better Learning Future With Us</p>
+
+              <h2 class="h1 hero-title">Bersama Wirabuana, Membuka Masa Depan Cerah.</h2>
+
+              <p class="hero-text">
+                SMK Wira Buana memiliki murid murid yang berprestasi, konsisten dalam berkontribusi mencetak generasi gemilang, dan sekolah kami menggunakan sistem pembelajaran berbasis industri
+              </p>
+
+              <a
+                href="https://www.instagram.com/sekolahwirabuana/"
+                class="btn btn-primary"
+                target="_blank"
+              >
+                <span class="span">Sosial Media Kami</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="assets/images/gedungwb.png"
+                width="500"
+                height="500"
+                loading="lazy"
+                alt="gedungwb image"
+                class="w-100"
+              />
+
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="assets/images/kunjin.JPG"
+                width="200"
+                height="200"
+                loading="lazy"
+                alt="Tentang kami banner"
+                class="w-100 about-img"
+              />
+
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">Who We Are</p>
+
+              <h2 class="h2 section-title">We Offer The Best Carrier</h2>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <div class="item-icon item-icon-1">
+                    <img
+                      src="./assets/images/about-icon-1.png"
+                      width="30"
+                      height="30"
+                      loading="lazy"
+                      aria-hidden="true"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 item-title">Guru Dengan Kualitas Terbaik</h3>
+
+                    <p class="item-text">
+                      Kami memiliki guru guru terbaik yang siap mengajar kalian
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="item-icon item-icon-2">
+                    <img
+                      src="./assets/images/about-icon-2.png"
+                      width="30"
+                      height="30"
+                      loading="lazy"
+                      aria-hidden="true"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 item-title">menggunakan Metode Pembelajaran Terkini</h3>
+
+                    <p class="item-text">
+                      kami mengajar dengan metode pembelajaran yang terbaik untuk mencetak generasi unggul
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="item-icon item-icon-3">
+                    <img
+                      src="./assets/images/about-icon-3.png"
+                      width="30"
+                      height="30"
+                      loading="lazy"
+                      aria-hidden="true"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 item-title">Siswa Siswi Yang Berprestasi</h3>
+
+                    <p class="item-text">
+                      Kami memiliki banyak siswa siswi yang berprestasi dalam berbagai bidang, akademik maupun non akademik
+                    </p>
+                  </div>
+                </li>
+              </ul>
+
+              <a
+                href="https://www.youtube.com/MrBeast/"
+                class="btn btn-primary"
+                target="_blank"
+              >
+                <span class="span">Ketahui Tentang Kami</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- 
+        - #CATEGORY
+      -->
+        <section class="section category" id="benefits" aria-label="category">
+          <div class="container">
+
+            <h2 class="h2 section-title">
+              Jurusan Yang Tersedia Di SMK Wirabuana
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">(RPL) Rekayasa Perangkat Lunak</a>
+                    </h3>
+
+                    <span class="card-meta">Best in-class course</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-globe"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">(TKJ) Teknik Komputer Jaringan</a>
+                    </h3>
+
+                    <span class="card-meta">Best in-class course</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-car"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">(TKR) Teknik Kendaraan Ringan</a>
+                    </h3>
+
+                    <span class="card-meta">Best in-class course</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-motorcycle"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">(TSM) Teknik Sepeda Motor</a>
+                    </h3>
+
+                    <span class="card-meta">Best in-class course</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-camera"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">(MM) Multimedia</a>
+                    </h3>
+
+                    <span class="card-meta">Best in-class course</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">(AKL) Akutansi Keuangan Lembaga</a>
+                    </h3>
+
+                    <span class="card-meta">Best in-class course</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-handshake"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">(BDP) Bisnis Daring Pemasaran</a>
+                    </h3>
+
+                    <span class="card-meta">Best in-class course</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-building"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">(OTKP) Otomisasi dan Tata Kelola Perkantoran</a>
+                    </h3>
+
+                    <span class="card-meta">Best in-class course</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card">
+                  <div class="card-icon">
+                    <i class="fa-brands fa-xbox"></i>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="#">Mabar Game</a>
+                    </h3>
+
+                    <span class="card-meta">Main game bareng saat jamkos</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--#COURSE-->
+
+    
+    <!--#FOOTER-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">Nama Kelompok</a>
+
+            <p class="section-text">
+              <span class="span">Sony Al Bukhori</span>
+              <span class="span">Ibrahim Muqsith</span>
+              <span class="span">Fathir Muhammad Wildan</span>
+              <span class="span">Bagas Bayu Seto</span>
+              <span class="span">Ahmad Fabian Ramadhan</span>
+              <span class="span">Victory Bevan Ogbole</span>
+              <span class="span">Fahmi Alamsyah</span>
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a
+                  href="https://www.facebook.com/groups/1581760132273971/permalink/1584262872023697/?mibextid=uJjRxr"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/sekolahwirabuana/"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.youtube.com/windah basudara/"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Explore</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Profile</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Benefits</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Contact Info</p>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="footer-link">
+                Jalan Camat Kanang Jalan Raya Citayam No.13 RT.05/RW.07 Pabuaran Kecamatan Bojong Gede Bogor Jawa Barat 16921 Indonesia
+              </address>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <a 
+               >+084696396450</a
+              >
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a 
+                >smkwirabuana@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            Copyright 2023 SMK Wirabuana Bogor
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
